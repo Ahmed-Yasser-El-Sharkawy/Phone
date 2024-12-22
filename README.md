@@ -1,4 +1,5 @@
 1. Case Description
+   
 a. Introduction
 The mobile phone market is highly competitive, with companies like Apple and Samsung dominating the industry. Bob, a new entrant, faces the challenge of estimating the price range of his mobile phones accurately. Data mining techniques, especially classification, can provide insights into the relationship between phone features and their price range, enabling strategic decision-making. This project leverages classification techniques to address this challenge.
 b. Problem Definition
