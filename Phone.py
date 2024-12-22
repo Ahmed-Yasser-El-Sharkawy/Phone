@@ -25,7 +25,7 @@ def user_Input():
     px_width = st.number_input('Enter Pixel Width in DPI',min_value=0,max_value=4000,step=1)
     px_height = st.number_input('Enter Pixel Height in DPI',min_value=0,max_value=4000,step=1)
     int_memory = st.number_input('Enter Internal Memory in Gigabytes',min_value=2,max_value=512,step=1)
-    sc_w = st.number_input('Enter Screen Width in Inches',min_value=0,max_value=40,step=1)
+    sc_w = st.number_input('Enter Screen Width in Inches',min_value=0,max_value=300,step=1)
     pc = st.number_input('Primary Camera mega pixels',min_value=0,max_value=40,step=1)
     touch_screen = st.selectbox('Touch Screen', ['Yes', 'No'])
     if touch_screen == 'Yes':
