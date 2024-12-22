@@ -22,7 +22,7 @@ def F_Mobile_Category( l ):
 def user_Input():
     Ram = st.number_input('Enter RAM in Migabytes',min_value=256,max_value=9000,step=1)
     battery_power = st.number_input('Enter Battery Power in mAh',min_value=501,max_value=4000,step=1)
-    px_width = st.number_input('Enter Pixel Width in DPI',min_value=500,max_value=4000,step=1)
+    px_width = st.number_input('Enter Pixel Width in DPI',min_value=0,max_value=4000,step=1)
     px_height = st.number_input('Enter Pixel Height in DPI',min_value=0,max_value=4000,step=1)
     int_memory = st.number_input('Enter Internal Memory in Gigabytes',min_value=2,max_value=512,step=1)
     sc_w = st.number_input('Enter Screen Width in Inches',min_value=0,max_value=40,step=1)
